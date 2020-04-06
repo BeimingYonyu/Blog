@@ -28,7 +28,7 @@ extent management local;       /*extent management local   代表管理方式为
 > 3.创建用户并指定表空间
 
 ```
-create user xing identified by yuhang 
+create user xing identified by "" 
 default tablespace xing_temp 
 temporary tablespace xing_data; 
 
